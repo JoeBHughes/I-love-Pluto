@@ -1,5 +1,5 @@
 p {
-  font-family:  Arial, Helvetica, sans-serif;
+  font-family: "Helvetica Neue", Arial, sans-serif;
   font-size: 1.2em;    
 }
 h1 {
@@ -11,14 +11,31 @@ h1.nav {
   font-size: 2em;
   text-align: center;
 }
-li {
-  font-family:  Arial, Helvetica, sans-serif;
+li.nav {
+  font-family: "Helvetica Neue", Arial, sans-serif;
   font-size: 1.2em;
+  text-align: center;
 }
 a { 
-  font-family:  Arial, Helvetica, sans-serif;
-  font-size: 1em;   
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  font-size: 1em;
+}
 }
 ul.nav {
   text-align: center;
+}
+footer {
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  font-size: .75em;
+  font-style: italic;
+}
+#menu-close {
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  font-size: 1em;
+  text-align: center;
+}
+#banner {
+  font-family: "Times New Roman", Garamond, serif;
+  font-size: 4em;
+  font-weight: 800;
 }
