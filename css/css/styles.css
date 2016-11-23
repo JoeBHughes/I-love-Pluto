@@ -1,0 +1,41 @@
+p {
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  font-size: 1.2em;    
+}
+h1 {
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  font-size: 2em;
+}
+h1.nav {
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  font-size: 2em;
+  text-align: center;
+}
+li.nav {
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  font-size: 1.2em;
+  text-align: center;
+}
+a { 
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  font-size: 1em;
+}
+}
+ul.nav {
+  text-align: center;
+}
+footer {
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  font-size: .75em;
+  font-style: italic;
+}
+#menu-close {
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  font-size: 1em;
+  text-align: center;
+}
+#banner {
+  font-family: "Times New Roman", Garamond, serif;
+  font-size: 4em;
+  font-weight: 800;
+}
