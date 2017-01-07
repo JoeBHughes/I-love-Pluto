@@ -43,13 +43,13 @@ body {
  * Defaults
  * ================================================================= */
 h1, h2, h3 {
-    font-family: Satisfy, cursive;
-    font-weight: 400;
+    font-family: Arial; sans-serif;
+    font-weight: 300;
     line-height: 1; /* 1.4 * the font size */
     margin: 0;
 }
 h1 {
-    font-size: 3em; /* 16 * 3 = 48 */
+    font-size: 2em; /* 16 * 3 = 48 */
     margin-bottom: .15em; /* 16 * .15 = 2.4 */
 }
 section h1 {
@@ -150,7 +150,7 @@ footer {
     .banner--home img {
         display: inline;
         width: 50%;
-        max-width: 400px;
+        max-width: 300px;
         height: auto;
     }
 
