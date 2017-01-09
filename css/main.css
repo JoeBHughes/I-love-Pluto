@@ -232,15 +232,10 @@ footer {
 /* =Responsive Images */
 picture,
 img {
-    display: block;
-    width: 100%;
-    max-width: 100%;
-    height: auto;
-}
-img.special {
     display: inline;
     height: auto;
 }
+
 /* =Responsive Videos
  * See http://css-tricks.com/NetMag/FluidWidthVideo/Article-FluidWidthVideo.php */
 .video {
