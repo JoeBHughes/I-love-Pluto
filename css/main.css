@@ -48,8 +48,8 @@ h1, h2, h3 {
     line-height: 1; /* 1.4 * the font size */
     margin: 0;
 }
-h1 {
-    font-size: 2em; /* 16 * 3 = 48 */
+h1.special {
+    font-size: 3em; /* 16 * 3 = 48 */
     margin-bottom: .15em; /* 16 * .15 = 2.4 */
 }
 section h1 {
@@ -237,6 +237,7 @@ img {
     max-width: 100%;
     height: auto;
 }
+
 
 /* =Responsive Videos
  * See http://css-tricks.com/NetMag/FluidWidthVideo/Article-FluidWidthVideo.php */
