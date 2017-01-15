@@ -230,6 +230,11 @@ footer {
  * ================================================================= */
 
 /* =Responsive Images */
+area {
+    display: inline;
+    cursor: pointer;
+}
+
 picture,
 img {
     display: inline;
@@ -267,11 +272,17 @@ figure {
     .figure__caption {
         font-size: 0.875em; /* 16 * .875 = 14 */
         font-style: italic;
-        margin: 1em 0 0;
+        margin: 1em 0 0 5em;
     }
+    .figure_caption1 {
+        font-size: 0.875em; /* 16 * .875 = 14 */
+        font-style: italic;
+        margin: 1em 0 1em 5em;
+}
         .figure__caption em,
         .figure__caption i {
             font-style: normal;
+            text-align: center;
         }
     .figure__source {
         background: black;
@@ -298,23 +309,24 @@ figure {
     display: block;
     margin: 1em auto;
     max-width: 310px;
+    
 }
     .figure--inline img,
     .figure--inline picture,
     .figure--inline .video {
         margin-bottom: 1em;
     }
-    .figure--inline::before,
+    /*.figure--inline::before,
     .figure--inline::after {
         content: " ";
         display: block;
         height: 0;
         margin: 1em auto 0;
         width: 50%;
-        border-top: 1px solid #ccc;
-    }
-    .figure--inline::before {
-        margin: 0 auto 1em;
+        border: 1px solid #ccc;
+    }*/
+    /*.figure--inline::before {
+        margin: 0 auto 1em;*/
     }
     .figure--inline .figure__source {
         margin-top: 1.4545em; /* make room for the space 11 * 1.4545 = 16 */
@@ -328,6 +340,46 @@ figure {
         top: 0; /* and the border compensation */
     }
 
+.thumbcaption {
+    font-style: italic;
+    border: none;
+    line-height: 1.4em;
+    padding: 2px;
+    font-size: 90%;
+    text-align: left;
+    height: 30px;
+}
+.thumbimage {
+    background-color: #fff;
+    border: 1px solid #c8ccd1;    
+    }
+}
+div {
+    display: block;
+}
+div.tright {
+    margin: .5em 0 1.3em 1.4em;
+    clear: right;
+    float: right;
+}
+div.tleft {
+    margin: .5em 1.4em 1em 0;
+    float: left;
+    
+}
+div.thumb {
+    background-color: #fff;
+    margin-bottom: .5em;
+    width: auto;
+}
+div.thumbin {
+    border: 1px solid #c8ccd1;
+    padding: 3px;
+    background-color: #f8f9fa;
+    font-size: 94%;
+    text-align: center;
+    overflow: hidden;
+}
 
 /* =================================================================
  * Galleries
