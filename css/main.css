@@ -150,7 +150,7 @@ footer {
     .banner--home img {
         display: inline;
         width: 50%;
-        max-width: 300px;
+        max-width: 400px;
         height: auto;
     }
 
@@ -339,7 +339,12 @@ figure {
         margin-top: 0; /* remove the space */
         top: 0; /* and the border compensation */
     }
-
+.left {
+	float: left;
+}
+ul li {
+	list-style: none;
+}
 .thumbcaption {
     font-style: italic;
     border: none;
@@ -348,11 +353,29 @@ figure {
     font-size: 90%;
     text-align: left;
     height: 30px;
+	
+}
+.thumbcaption1 {
+	font-style: italic;
+    border: none;
+    line-height: 1.4em;
+    padding: 2px;
+    font-size: 90%;
+    text-align: left;
+    height: 70px;
+}
+.thumbcaption2 {
+	font-style: italic;
+    border: none;
+    line-height: 1.4em;
+    padding: 2px;
+    font-size: 90%;
+    text-align: left;
+    height: 85px;
 }
 .thumbimage {
     background-color: #fff;
-    border: 1px solid #c8ccd1;    
-    }
+    border: 1px solid #c8ccd1;
 }
 div {
     display: block;
@@ -362,12 +385,12 @@ div.tright {
     clear: right;
     float: right;
 }
-div.tleft {
+.tleft {
     margin: .5em 1.4em 1em 0;
     float: left;
     
 }
-div.thumb {
+.thumb {
     background-color: #fff;
     margin-bottom: .5em;
     width: auto;
