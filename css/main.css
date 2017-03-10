@@ -362,7 +362,7 @@ ul li {
     padding: 2px;
     font-size: 90%;
     text-align: left;
-    height: 70px;
+    height: 65px;
 }
 .thumbcaption2 {
 	font-style: italic;
@@ -385,12 +385,12 @@ div.tright {
     clear: right;
     float: right;
 }
-.tleft {
+div.tleft {
     margin: .5em 1.4em 1em 0;
     float: left;
     
 }
-.thumb {
+div.thumb {
     background-color: #fff;
     margin-bottom: .5em;
     width: auto;
