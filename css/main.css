@@ -877,6 +877,14 @@ div.thumbin {
                 float: right;
                 margin-right: 0;
             }
+		
+				.gallery__itemcenter {
+					float: none;
+					width: 100%;
+					margin-left: auto;
+					margin-right: auto;
+	
+	}
     
     /* for getActiveMQ */
     #getActiveMQ-watcher { font-family: "x-large"; }
