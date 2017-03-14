@@ -230,15 +230,32 @@ footer {
  * ================================================================= */
 
 /* =Responsive Images */
-area {
-    display: inline;
-    cursor: pointer;
-}
-
 picture,
 img {
-    display: inline;
+    display: block;
+    width: 100%;
+    max-width: 100%;
     height: auto;
+}
+img[Attributes Style] {
+	width: 600px;
+	height: 119px;
+}
+.center {
+    width: 600;
+	height: 119;
+	margin: auto;
+    text-align: center;
+	float: none;
+	
+}
+figure#center {
+	display: block;
+	width: 600px;
+	height: 119px;
+	position: relative;
+	margin-left: auto;
+	margin: auto;
 }
 
 /* =Responsive Videos
@@ -272,17 +289,11 @@ figure {
     .figure__caption {
         font-size: 0.875em; /* 16 * .875 = 14 */
         font-style: italic;
-        margin: 1em 0 0 5em;
+        margin: 1em 0 0;
     }
-    .figure_caption1 {
-        font-size: 0.875em; /* 16 * .875 = 14 */
-        font-style: italic;
-        margin: 1em 0 1em 5em;
-}
         .figure__caption em,
         .figure__caption i {
             font-style: normal;
-            text-align: center;
         }
     .figure__source {
         background: black;
@@ -309,24 +320,23 @@ figure {
     display: block;
     margin: 1em auto;
     max-width: 310px;
-    
 }
     .figure--inline img,
     .figure--inline picture,
     .figure--inline .video {
         margin-bottom: 1em;
     }
-    /*.figure--inline::before,
+    .figure--inline::before,
     .figure--inline::after {
         content: " ";
         display: block;
         height: 0;
         margin: 1em auto 0;
         width: 50%;
-        border: 1px solid #ccc;
-    }*/
-    /*.figure--inline::before {
-        margin: 0 auto 1em;*/
+        border-top: 1px solid #ccc;
+    }
+    .figure--inline::before {
+        margin: 0 auto 1em;
     }
     .figure--inline .figure__source {
         margin-top: 1.4545em; /* make room for the space 11 * 1.4545 = 16 */
@@ -338,6 +348,31 @@ figure {
     h1 + .figure--inline .figure__source {
         margin-top: 0; /* remove the space */
         top: 0; /* and the border compensation */
+    }
+
+
+/* =================================================================
+ * Galleries
+ * ================================================================= */
+.gallery {}
+    .gallery__item::after {
+        content: " ";
+        display: block;
+        height: 0;
+        margin: 1em auto 0;
+        width: 50%;
+        border-top: 1px solid #ccc;
+    }
+    .gallery__item:last-child::after {
+        display: none;
+    }
+
+
+/* for getActiveMQ */
+#getActiveMQ-watcher { font-family: "default"; }
+
+/* 320px—648px */
+@media only screen and (min-width:20em) and (max-width:40.5em) {
     }
 .left {
 	float: left;
