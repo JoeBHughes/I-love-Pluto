@@ -879,10 +879,10 @@ div.thumbin {
             }
 		
 				.gallery__itemcenter {
-					float: left;
-					width: 100%;
-					margin-left: auto;
-					margin-right: auto;
+					float: none;
+					width: 95%;
+					margin-left: 2em;
+					margin-right: 2em;
 	
 	}
     
