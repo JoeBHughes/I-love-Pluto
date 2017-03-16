@@ -283,7 +283,7 @@ figure#center {
 figure {
     margin: 0 0 1.25em; /* 16 * 1.2 = 20 */
 }
-.figure {
+ .figure {
     position: relative; /* contain the source */
 }
     .figure__caption {
@@ -307,8 +307,8 @@ figure {
 
         /* position over the image */
         position: absolute;
-        top: 0;
-        right: 0;
+        top: .5px;
+        right: .5px;
     }
         .figure__source a {
             color: white;
@@ -417,12 +417,19 @@ div {
 }
 div.tright {
     margin: .5em 0 1.3em 1.4em;
+	padding: .3em;
     float: right;
+	clear: right;
+	
 }
 div.tleft {
     margin: .5em 1.4em 1em 0;
     float: left;
-    
+}
+div.tcenter {
+	margin: .5em 0 1.3em 1.4em;
+	padding: .3em;
+    float: none;
 }
 div.thumb {
     background-color: #fff;
