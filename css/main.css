@@ -418,7 +418,10 @@ div {
 div.tright {
     margin: .5em 0 1.3em 1.4em;
     float: right;
-	
+}
+div.tright1 {
+    margin: .5em 0 1.3em 3px;;
+    float: right;
 }
 div.tleft {
     margin: .5em 1.4em 1em 0;
